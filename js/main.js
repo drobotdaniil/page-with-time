@@ -99,12 +99,12 @@ function setBgGreet(){
         //afternoon
         document.body.style.backgroundImage = "url('./img/afternoon-new.jpg')";
         greeting.textContent = "Good Afternoon";
-        document.body.style.color = "white";
+
     } else {
         //evening
         document.body.style.backgroundImage = "url('./img/evening-new.jpg')";
         greeting.textContent = "Good Evening";
-        document.body.style.color = "white";
+
     }
     
 }
